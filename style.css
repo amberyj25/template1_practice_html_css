@@ -1,0 +1,68 @@
+/* css rest */
+body,
+ul,
+h1,
+h2,
+h3,
+p,
+figure {
+  margin: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+button {
+  padding: 0;
+}
+/* stop css rest */
+body {
+  font-family: "Times New";
+  min-width: 1500px;
+}
+header {
+  background-color: #eeeeee;
+}
+header h1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 55px;
+}
+header h1 a {
+  display: block;
+}
+header a img {
+  vertical-align: top;
+}
+header .header-content {
+  width: 1200px;
+  margin: auto;
+  padding: 20px 0 20px;
+  font-size: 0;
+}
+header nav {
+  vertical-align: middle;
+  display: inline-block;
+}
+header nav a {
+  text-decoration: none;
+  color: #959595;
+  /* margin: 0 75px; */
+  font-size: 15px;
+  display: inline-block;
+  padding: 5px;
+}
+header nav :nth-child(n + 1):nth-child(-n + 5) {
+  margin: 0 75px;
+}
+header a:hover {
+  cursor: pointer;
+  color: #f9961f;
+}
+/* .imgA{
+    position: absolute;
+    width:100%;
+    top: 0;
+    left: 0; 
+    opacity: 0.3;
+} */
