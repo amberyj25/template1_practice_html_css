@@ -59,6 +59,84 @@ header a:hover {
   cursor: pointer;
   color: #f9961f;
 }
+main p {
+  color: #585858;
+}
+main p,
+article .article-conten p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+main .maintext-content {
+  width: 100%;
+  background: #fdfdfd;
+  padding-top: 50px;
+}
+main section {
+  width: 1000px;
+  margin: auto;
+}
+main article {
+  padding: 50px 0 120px;
+}
+main .section-content {
+  width: 490px;
+  float: left;
+}
+main figure {
+  width: 490px;
+  float: right;
+}
+main .section-content h2 {
+  font-size: 70px;
+}
+main .section-content h3 {
+  font-size: 35px;
+  line-height: 1.5;
+}
+main .button {
+  width: 275px;
+  margin: 50px auto 0;
+}
+main .section-content button {
+  width: 275px;
+  height: 70px;
+  background: linear-gradient(#ffbb58 50%, #f9951e 50%);
+  border-radius: 5px;
+  color: white;
+  font-size: 25px;
+  border: 0;
+}
+main .section-content button:hover {
+  cursor: pointer;
+}
+main .section-content span {
+  font-size: 15px;
+  line-height: 2;
+}
+main figure:hover {
+  cursor: pointer;
+}
+.clearfix {
+  clear: both;
+}
+main article .article-content {
+  width: 1000px;
+  column-count: 2;
+  column-gap: 25px;
+  margin: 0 auto;
+}
+main article h3 {
+  font-size: 35px;
+  line-height: 2;
+  column-span: all;
+}
+main article .article-content p {
+  margin-bottom: 20px;
+}
+main img {
+  width: 100%;
+}
 /* .imgA{
     position: absolute;
     width:100%;
