@@ -137,6 +137,46 @@ main article .article-content p {
 main img {
   width: 100%;
 }
+footer {
+  background: #eeeeee;
+}
+footer .footer-content {
+  width: 1200px;
+  margin: auto;
+}
+footer span {
+  color: #585858;
+  line-height: 100px;
+}
+footer ul {
+  height: 100px;
+  float: right;
+}
+footer a {
+  display: inline-block;
+}
+footer img {
+  width: 40px;
+  height: 40px;
+}
+footer ul::before {
+  width: 0;
+  height: 100%;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+}
+footer li {
+  display: inline-block;
+  vertical-align: middle;
+}
+footer ul :nth-child(n + 1):nth-child(-n + 4) {
+  margin-right: 5px;
+}
+footer li:hover {
+  cursor: pointer;
+}
+
 /* .imgA{
     position: absolute;
     width:100%;
